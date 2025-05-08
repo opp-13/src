@@ -33,7 +33,7 @@ jobs:
           echo "ECR_REPOSITORY=frontend" >> $GITHUB_ENV 
           echo "IMAGE_TAG=${{ github.run_number }}" >> $GITHUB_ENV
           echo "GIT_EMAIL=john_sungho@naver.com" >> $GITHUB_ENV
-          echo "GIT_NAME="opp-13" >> $GITHUB_ENV
+          echo "GIT_NAME=opp-13" >> $GITHUB_ENV
 
       - name: Docker Image Build
         id: build-image
